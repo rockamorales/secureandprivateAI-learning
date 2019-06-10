@@ -36,3 +36,28 @@ tensor([[ 1.0000,  1.0000,  1.0000,  1.0000],
 
 ### How to work with tensors?
 
+* The contents of a tensor can be accessed and modified using Python’s indexing and slicing notation
+```
+>>> x = torch.tensor([[1, 2, 3], [4, 5, 6]])
+>>> print(x[1][2])
+tensor(6)
+>>> x[0][1] = 8
+>>> print(x)
+tensor([[ 1,  8,  3],
+        [ 4,  5,  6]])
+```
+* ``` torch.tensor() ``` always copies data. If you have a Tensor data and just want to change its ``` requires_grad ``` flag, use ``` requires_grad_() ``` or ``` detach() ``` to avoid a copy. If you have a numpy array and want to avoid a copy, use ``` torch.as_tensor() ```.
+* A tensor can be created with ```requires_grad=True``` so that torch.autograd records operations on them for automatic differentiation.
+ * Need more information to understand how this works exactly
+
+```
+>>> x = torch.tensor([[1., -1.], [1., 1.]], requires_grad=True)
+>>> out = x.pow(2).sum()
+>>> out.backward()
+>>> x.grad
+tensor([[ 2.0000, -2.0000],
+        [ 2.0000,  2.0000]])
+```
+
+* For more information see: https://pytorch.org/docs/stable/tensors.html
+
