@@ -19,3 +19,6 @@ http://blog.christianperone.com/2018/03/pytorch-internal-architecture-tour/
 
 # Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names
 https://gombru.github.io/2018/05/23/cross_entropy_loss/
+
+# Dropout for regularizing
+https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/
