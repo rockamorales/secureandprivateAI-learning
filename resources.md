@@ -23,17 +23,20 @@ https://gombru.github.io/2018/05/23/cross_entropy_loss/
 # Dropout for regularizing
 https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/
 
-Linear Algebra
+# Linear Algebra
 
 https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/
 
 
-Formal definition of differential privacy
+# Formal definition of differential privacy
 https://medium.com/@garg4.ag/the-formal-definition-of-differential-privacy-udacityfacebookscholarship-challange-a344dbf4453
 
-Backpropagation
+# Backpropagation
 https://medium.com/@sauravkumarsct/playing-with-backpropagation-algorithm-intuition-10c42578a8e8
 
-Gradient descendent Backpropagation
+# Gradient descendent Backpropagation
 https://medium.com/@sauravkumarsct/playing-with-gradient-descent-intuition-e5bde385078
 https://medium.com/@sauravkumarsct/playing-with-backpropagation-algorithm-intuition-10c42578a8e8
+
+# More resources
+https://airtable.com/shrSyz0zaGM52kksj/tbli6XwcjDSByLwLL/viw8FIuR24ToQ47Od?blocks=hide
